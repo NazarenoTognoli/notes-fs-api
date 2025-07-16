@@ -6,7 +6,11 @@ otherwise, to run the app in production, it should be modified the path of the f
 to use the app it is recommended to use another tool like postman to make the http requests.
 
 "POST /files/{filename}" : creates a new file
+
 "GET /files/{filename}" : reads specific file
+
 "PUT /files/{filename}" : updates a file
+
 "DELETE /files/{filename}" : deletes a file
+
 "GET /files" : list all files
